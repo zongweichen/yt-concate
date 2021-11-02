@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="598409bc-193a-436a-b92d-494a7e0a9577" name="Changes" comment="added ignore file and package yt-concate">
-      <change afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yt_concate/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yt_concate/settings.py" afterDir="false" />
+    <list default="true" id="598409bc-193a-436a-b92d-494a7e0a9577" name="Changes" comment="build pipeline new Main structure make code easy to read">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +37,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/yt_concate/Pipline" />
+      <recent name="$PROJECT_DIR$/yt_concate" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -103,7 +102,28 @@
       <option name="project" value="LOCAL" />
       <updated>1635574227716</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added .env to store api_key , install dotenv">
+      <created>1635643001695</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635643001696</updated>
+    </task>
+    <task id="LOCAL-00003" summary="suscessfully get video list and set requirememt.txt settings.py">
+      <created>1635644887543</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635644887544</updated>
+    </task>
+    <task id="LOCAL-00004" summary="build pipeline new Main structure make code easy to read">
+      <created>1635818082433</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635818082433</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -124,6 +144,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added ignore file and package yt-concate" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ignore file and package yt-concate" />
+    <MESSAGE value="added .env to store api_key , install dotenv" />
+    <MESSAGE value="suscessfully get video list and set requirememt.txt settings.py" />
+    <MESSAGE value="build pipeline new Main structure make code easy to read" />
+    <option name="LAST_COMMIT_MESSAGE" value="build pipeline new Main structure make code easy to read" />
   </component>
 </project>
