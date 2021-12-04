@@ -2,9 +2,7 @@ from abc import ABC
 from abc import abstractmethod
 
 
-
-
-class step(ABC):
+class Step(ABC):
     def __init__(self):
         pass
 
