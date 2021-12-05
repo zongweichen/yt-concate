@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="598409bc-193a-436a-b92d-494a7e0a9577" name="Changes" comment="build pipeline new Main structure make code easy to read">
-      <change afterPath="$PROJECT_DIR$/yt_concate/Pipline/steps/download_captions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yt_concate/Pipline/steps/postflight.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yt_concate/Pipline/steps/preflight.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yt_concate/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="598409bc-193a-436a-b92d-494a7e0a9577" name="Changes" comment="successfully download all captions and save video list to file ,Exception too broad is not solved.">
+      <change afterPath="$PROJECT_DIR$/yt_concate/Pipline/steps/read_caption.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yt_concate/Pipline/pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/yt_concate/Pipline/pipeline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yt_concate/Pipline/steps/get_video_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/yt_concate/Pipline/steps/get_video_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yt_concate/Pipline/steps/preflight.py" beforeDir="false" afterPath="$PROJECT_DIR$/yt_concate/Pipline/steps/preflight.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yt_concate/Pipline/steps/step.py" beforeDir="false" afterPath="$PROJECT_DIR$/yt_concate/Pipline/steps/step.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yt_concate/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/yt_concate/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yt_concate/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/yt_concate/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635818648204</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="successfully download all captions and save video list to file ,Exception too broad is not solved.">
+      <created>1638600540396</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638600540396</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -178,6 +178,7 @@
     <MESSAGE value="added .env to store api_key , install dotenv" />
     <MESSAGE value="suscessfully get video list and set requirememt.txt settings.py" />
     <MESSAGE value="build pipeline new Main structure make code easy to read" />
-    <option name="LAST_COMMIT_MESSAGE" value="build pipeline new Main structure make code easy to read" />
+    <MESSAGE value="successfully download all captions and save video list to file ,Exception too broad is not solved." />
+    <option name="LAST_COMMIT_MESSAGE" value="successfully download all captions and save video list to file ,Exception too broad is not solved." />
   </component>
 </project>
