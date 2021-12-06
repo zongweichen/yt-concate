@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="598409bc-193a-436a-b92d-494a7e0a9577" name="Changes" comment="successfully download all captions and save video list to file ,Exception too broad is not solved.">
-      <change afterPath="$PROJECT_DIR$/yt_concate/Pipline/steps/read_caption.py" afterDir="false" />
+    <list default="true" id="598409bc-193a-436a-b92d-494a7e0a9577" name="Changes" comment="successfully read captions into data structure and fixed step class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yt_concate/Pipline/steps/preflight.py" beforeDir="false" afterPath="$PROJECT_DIR$/yt_concate/Pipline/steps/preflight.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yt_concate/Pipline/steps/step.py" beforeDir="false" afterPath="$PROJECT_DIR$/yt_concate/Pipline/steps/step.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yt_concate/Pipline/steps/download_captions.py" beforeDir="false" afterPath="$PROJECT_DIR$/yt_concate/Pipline/steps/download_captions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yt_concate/Pipline/steps/read_caption.py" beforeDir="false" afterPath="$PROJECT_DIR$/yt_concate/Pipline/steps/read_caption.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yt_concate/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/yt_concate/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +153,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638600540396</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="successfully read captions into data structure and fixed step">
+      <created>1638710357599</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638710357600</updated>
+    </task>
+    <task id="LOCAL-00008" summary="successfully read captions into data structure and fixed step class">
+      <created>1638710406045</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1638710406046</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -179,6 +192,8 @@
     <MESSAGE value="suscessfully get video list and set requirememt.txt settings.py" />
     <MESSAGE value="build pipeline new Main structure make code easy to read" />
     <MESSAGE value="successfully download all captions and save video list to file ,Exception too broad is not solved." />
-    <option name="LAST_COMMIT_MESSAGE" value="successfully download all captions and save video list to file ,Exception too broad is not solved." />
+    <MESSAGE value="successfully read captions into data structure and fixed step" />
+    <MESSAGE value="successfully read captions into data structure and fixed step class" />
+    <option name="LAST_COMMIT_MESSAGE" value="successfully read captions into data structure and fixed step class" />
   </component>
 </project>

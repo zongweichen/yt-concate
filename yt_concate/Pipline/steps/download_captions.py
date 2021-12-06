@@ -2,6 +2,7 @@ import os
 import sys
 import traceback
 from youtube_transcript_api import YouTubeTranscriptApi
+from youtube_transcript_api import TranscriptsDisabled, NoTranscriptFound
 from yt_concate.Pipline.steps.step import Step
 from yt_concate.settings import CAPTION_DIR
 
@@ -24,7 +25,9 @@ class DownLoadCaptions(Step):
                 for cap in captions:
                     print(cap, file=text_file)
                     text_file.close()
-            except :
+            except TranscriptsDisabled:
+                print("caption can not found")
+            except NoTranscriptFound:
                 print("caption can not found")
                 continue
                 text_file.close()
