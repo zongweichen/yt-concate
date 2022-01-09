@@ -1,7 +1,6 @@
 from .step import Step
 
 
-#class Postflight(Step):
-    #def process(self, data, input, utils):
-        #print("in postflight")
-        #utils.create_dir()
+class Postflight(Step):
+    def process(self, data, input, utils):
+        None

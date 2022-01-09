@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="598409bc-193a-436a-b92d-494a7e0a9577" name="Changes" comment="successfully read captions into data structure and fixed step class">
+    <list default="true" id="598409bc-193a-436a-b92d-494a7e0a9577" name="Changes" comment="fixed Exception too broad problem and delete extra captions dict">
+      <change afterPath="$PROJECT_DIR$/yt_concate/Pipline/steps/downloadvideos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yt_concate/Pipline/steps/initialize_yt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yt_concate/Pipline/steps/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yt_concate/model/found.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yt_concate/model/yt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yt_concate/Pipline/steps/download_captions.py" beforeDir="false" afterPath="$PROJECT_DIR$/yt_concate/Pipline/steps/download_captions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yt_concate/Pipline/steps/postflight.py" beforeDir="false" afterPath="$PROJECT_DIR$/yt_concate/Pipline/steps/postflight.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yt_concate/Pipline/steps/read_caption.py" beforeDir="false" afterPath="$PROJECT_DIR$/yt_concate/Pipline/steps/read_caption.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yt_concate/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/yt_concate/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yt_concate/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/yt_concate/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +40,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="20BWPzq2eNUEYtf09IMGLjkH95W" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -167,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638710406046</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fixed Exception too broad problem and delete extra captions dict">
+      <created>1638755438756</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1638755438757</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -183,7 +201,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -194,6 +211,7 @@
     <MESSAGE value="successfully download all captions and save video list to file ,Exception too broad is not solved." />
     <MESSAGE value="successfully read captions into data structure and fixed step" />
     <MESSAGE value="successfully read captions into data structure and fixed step class" />
-    <option name="LAST_COMMIT_MESSAGE" value="successfully read captions into data structure and fixed step class" />
+    <MESSAGE value="fixed Exception too broad problem and delete extra captions dict" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed Exception too broad problem and delete extra captions dict" />
   </component>
 </project>
